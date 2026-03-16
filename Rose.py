@@ -15,7 +15,7 @@ class Rose:
         self.rect = pygame.Rect(self.start_x, self.start_y, scaled_width, scaled_height)
         self.color = (220, 80, 120)
 
-        self.max_health = 100
+        self.max_health = 1000
         self.current_health = self.max_health
 
         self.projectiles = []
